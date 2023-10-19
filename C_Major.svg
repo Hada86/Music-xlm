@@ -39,13 +39,13 @@
     	<text x="16" y="16" font-family="sans-serif" font-size="24" text-anchor="middle" dominant-baseline="central" fill="#ffffff">7</text>
    	</symbol>
     <symbol id="string-note">
-    	<use x="0"href="#B2"></use>
-        <use x="124"href="#B3"></use>
-        <use x="186"href="#B4"></use>
-        <use x="310"href="#B5"></use>
-        <use x="434"href="#B6"></use>
-        <use x="558"href="#B7"></use>
-        <use x="620"href="#B1"></use>
+    	<use x="0" href="#B2"></use>
+        <use x="124" href="#B3"></use>
+        <use x="186" href="#B4"></use>
+        <use x="310" href="#B5"></use>
+        <use x="434" href="#B6"></use>
+        <use x="558" href="#B7"></use>
+        <use x="620" href="#B1"></use>
     </symbol>
     <symbol id="string-notex3">
     	<use href="#string-note"></use>

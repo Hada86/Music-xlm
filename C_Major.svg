@@ -1,0 +1,119 @@
+<svg viewBox="0 0 820 400">
+  	<defs>    
+    <symbol id="rootnote" width="32" height="32">
+    	<rect x="1" y="1" rx="10" ry="10" height="30" width="30" fill="rgba(255, 0, 0, .7)" stroke-width="0" stroke="rgba(0, 0, 0, 1)"></rect>
+    </symbol>
+    <symbol id="note" width="32" height="32">
+    	<circle r="15" cx="16" cy="16" fill="rgba(0, 0, 0, .7)" stroke-width="0" stroke="rgba(0, 0, 0, 1)"></circle>
+    </symbol>
+    <symbol id="fret-flag">
+    	<circle r="9" cx="10" cy="10" fill="rgba(100, 100, 150, 1)" stroke-width="1" stroke="rgba(0, 0, 0, 1)"></circle>
+   	</symbol>
+    
+    <symbol id="B1" width="32" height="32">
+  		<use href="#rootnote"></use>
+   		<text x="16" y="16" font-family="sans-serif" font-size="24" text-anchor="middle" dominant-baseline="central" fill="#ffffff">R</text>
+	</symbol>
+    <symbol id="B2" width="32" height="32">
+      	<use href="#note"></use>
+    	<text x="16" y="16" font-family="sans-serif" font-size="24" text-anchor="middle" dominant-baseline="central" fill="#ffffff">2</text>
+   	</symbol>
+    <symbol id="B3" width="32" height="32">
+      	<use href="#note"></use>
+    	<text x="16" y="16" font-family="sans-serif" font-size="24" text-anchor="middle" dominant-baseline="central" fill="#ffffff">3</text>
+   	</symbol>
+    <symbol id="B4" width="32" height="32">
+      	<use href="#note"></use>
+    	<text x="16" y="16" font-family="sans-serif" font-size="24" text-anchor="middle" dominant-baseline="central" fill="#ffffff">4</text>
+   	</symbol>
+    <symbol id="B5" width="32" height="32">
+      	<use href="#note"></use>
+    	<text x="16" y="16" font-family="sans-serif" font-size="24" text-anchor="middle" dominant-baseline="central" fill="#ffffff">5</text>
+   	</symbol>
+    <symbol id="B6" width="32" height="32">
+      	<use href="#note"></use>
+    	<text x="16" y="16" font-family="sans-serif" font-size="24" text-anchor="middle" dominant-baseline="central" fill="#ffffff">6</text>
+   	</symbol>
+    <symbol id="B7" width="32" height="32">
+      	<use href="#note"></use>
+    	<text x="16" y="16" font-family="sans-serif" font-size="24" text-anchor="middle" dominant-baseline="central" fill="#ffffff">7</text>
+   	</symbol>
+    <symbol id="string-note">
+    	<use x="0"href="#B2"></use>
+        <use x="124"href="#B3"></use>
+        <use x="186"href="#B4"></use>
+        <use x="310"href="#B5"></use>
+        <use x="434"href="#B6"></use>
+        <use x="558"href="#B7"></use>
+        <use x="620"href="#B1"></use>
+    </symbol>
+    <symbol id="string-notex3">
+    	<use href="#string-note"></use>
+        <use x="744" href="#string-note"></use>
+        <use x="1488" href="#string-note"></use>
+    </symbol>
+    <symbol id="note-string1_6" viewBox="124 0 2232 32">
+    	<use href="#string-notex3"></use>        
+    </symbol>
+    <symbol id="note-string2" viewBox="558 0 2232 32">
+    	<use href="#string-notex3"></use>        
+    </symbol>
+    <symbol id="note-string3" viewBox="310 0 2232 32">
+    	<use href="#string-notex3"></use>        
+    </symbol>
+    <symbol id="note-string4" viewBox="0 0 2232 32">
+    	<use href="#string-notex3"></use>        
+    </symbol>
+    <symbol id="note-string5" viewBox="434 0 2232 32">
+    	<use href="#string-notex3"></use>        
+    </symbol>
+    <symbol id="all-note-board" viewBox="0 0 1612 192">
+    	<use y="0" height="32" width="2232" href="#note-string1_6"></use>
+        <use y="32" height="32" width="2232" href="#note-string2"></use>
+        <use y="64" height="32" width="2232" href="#note-string3"></use>
+        <use y="96" height="32" width="2232" href="#note-string4"></use>
+        <use y="128" height="32" width="2232" href="#note-string5"></use>
+        <use y="160" height="32" width="2232" href="#note-string1_6"></use>
+    </symbol>
+    <symbol id="note-board" viewBox="744 0 800 192">
+    	<use height="192" width="1612" href="#all-note-board"></use>        
+    </symbol>
+    <symbol id="note-board-view">
+    	<use height="192" width="800" href="#note-board"></use>        
+    </symbol>
+    
+    <symbol id="fret" height="162" width="64">
+     	<rect height="162" width="64" stroke-width="4" stroke="#000000" fill="none"></rect>
+        <line x1="0" y1="33" x2="64" y2="33" stroke-width="2" stroke="#000000"></line>
+        <line x1="0" y1="65" x2="64" y2="65" stroke-width="2" stroke="#000000"></line>
+        <line x1="0" y1="97" x2="64" y2="97" stroke-width="2" stroke="#000000"></line>
+        <line x1="0" y1="129" x2="64" y2="129" stroke-width="2" stroke="#000000"></line>        
+   	</symbol>
+    <symbol id="fret-board">
+    	<line x1="0" y1="0" x2="0" y2="162" stroke-width="22" stroke="#000000"></line>
+        <use x="10" href="#fret"></use>
+        <use x="72" href="#fret"></use>
+        <use x="134" href="#fret"></use>
+        <use x="196" href="#fret"></use>
+        <use x="258" href="#fret"></use>
+        <use x="320" href="#fret"></use>
+        <use x="382" href="#fret"></use>
+        <use x="444" href="#fret"></use>
+        <use x="506" href="#fret"></use>
+        <use x="568" href="#fret"></use>
+        <use x="630" href="#fret"></use>
+        <use x="692" href="#fret"></use>
+    </symbol>
+    <symbol id="fret-flag-board">
+    	<use x="1" y="71" href="#fret-flag"></use>
+        <use x="125" y="71" href="#fret-flag"></use>
+        <use x="249" y="71" href="#fret-flag"></use>
+        <use x="435" y="39" href="#fret-flag"></use>
+        <use x="435" y="103" href="#fret-flag"></use>
+        <use x="559" y="71" href="#fret-flag"></use>
+    </symbol>
+    </defs>
+   	<use x="204" y="16" href="#fret-flag-board"></use>
+    <use x="48" y="16" href="#fret-board"></use>
+   	<use x="12" y="1" href="#note-board-view"></use>        
+</svg>

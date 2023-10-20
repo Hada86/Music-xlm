@@ -1,10 +1,14 @@
-<svg viewBox="0 0 820 192">
-  	<defs>    
+<svg viewBox="0 0 820 400">  	
+    <defs>
+    <style type="text/css">
+    	@import url("https://fonts.googleapis.com/css?family=Audiowide|Sofia");
+ 	</style>
     <symbol id="rootnote" width="32" height="32">
     	<rect x="1" y="1" rx="10" ry="10" height="30" width="30" fill="rgba(255, 0, 0, .7)" stroke-width="0" stroke="rgba(0, 0, 0, 1)"></rect>
     </symbol>
-    <symbol id="note" width="32" height="32">
-    	<circle r="15" cx="16" cy="16" fill="rgba(0, 0, 0, .7)" stroke-width="0" stroke="rgba(0, 0, 0, 1)"></circle>
+    <symbol id="note" width="32" height="32">    	
+        <circle r="15" cx="16" cy="16" fill="rgba(0, 0, 0, .7)" stroke-width="0" stroke="rgba(0, 0, 0, 1)">                  
+        </circle>        
     </symbol>
     <symbol id="fret-flag">
     	<circle r="9" cx="10" cy="10" fill="rgba(100, 100, 150, 1)" stroke-width="1" stroke="rgba(0, 0, 0, 1)"></circle>
@@ -57,10 +61,19 @@
     </symbol>
     <symbol id="note-string2" viewBox="558 0 2232 32">
     	<use href="#string-notex3"></use>        
+    </symbol>   
+    <symbol id="note-string22" height="32" width="1100">
+    	<use x="-558" href="#string-notex3"></use>
     </symbol>
+    
     <symbol id="note-string3" viewBox="310 0 2232 32">
     	<use href="#string-notex3"></use>        
     </symbol>
+    
+    <symbol id="note-string33"  height="32" width="1100">
+    	<use x="-310" href="#string-notex3"></use>        
+    </symbol>
+    
     <symbol id="note-string4" viewBox="0 0 2232 32">
     	<use href="#string-notex3"></use>        
     </symbol>
@@ -115,5 +128,6 @@
     </defs>
    	<use x="204" y="16" href="#fret-flag-board"></use>
     <use x="48" y="16" href="#fret-board"></use>
-   	<use x="12" y="1" href="#note-board-view"></use>        
+   	<use x="12" y="1" href="#note-board-view"></use>
+    <text x="410"y="220" font-family="Audiowide, sans-serif" font-size="36" text-anchor="middle" dominant-baseline="central" fill="#000000">C Major scale</text>
 </svg>

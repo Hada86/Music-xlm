@@ -1,8 +1,8 @@
-<svg viewBox="0 0 820 400">  	
+<svg viewBox="0 0 820 250">  	
     <defs>
     <style type="text/css">
     	@import url("https://fonts.googleapis.com/css?family=Audiowide|Sofia");
- 	</style>
+ </style>
     <symbol id="rootnote" width="32" height="32">
     	<rect x="1" y="1" rx="10" ry="10" height="30" width="30" fill="rgba(255, 0, 0, .7)" stroke-width="0" stroke="rgba(0, 0, 0, 1)"></rect>
     </symbol>
